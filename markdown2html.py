@@ -6,6 +6,7 @@ and converts a Markdown file to HTML
 import sys
 import os
 import markdown
+import re
 
 
 def convert_markdown_to_html(markdown_file, output_file):
