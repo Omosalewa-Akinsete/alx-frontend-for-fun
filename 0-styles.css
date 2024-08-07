@@ -1,0 +1,42 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list items */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+li {
+    margin: 10px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+/* Define styles for the icons */
+.icon {
+    display: inline-block;
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    background: url('path/to/sprite-image.png') no-repeat;
+}
+
+/* Define background positions for each icon */
+.i-html {
+    background-position: 0 0; /* Adjust position based on sprite */
+}
+
+.i-css {
+    background-position: -40px 0; /* Adjust position based on sprite */
+}
+
+.i-js {
+    background-position: -80px 0; /* Adjust position based on sprite */
+}
