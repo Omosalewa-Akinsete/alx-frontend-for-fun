@@ -1,0 +1,7 @@
+/* Creates .col-* classes with different width using @for statement */
+
+@for $i from 1 through 4 {
+  .col-#{$i} {
+    width: percentage(1 / $i);
+  }
+}
