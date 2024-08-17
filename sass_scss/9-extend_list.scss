@@ -1,0 +1,15 @@
+/* Assigns font size 12px to all tags of class .info, Text color #00FF00 for .success and .warning (extends .info) */
+
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info;
+  color: #00FF00;
+}
+
+.warning {
+  @extend .info;
+  color: #FF0000;
+}
